@@ -20,3 +20,5 @@ $ yarn add @shopify/react-hooks
 ### `usePrevious()`
 
 ### `useDebounce()`
+
+### `useValueChange()`
