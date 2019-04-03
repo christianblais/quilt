@@ -37,7 +37,7 @@ export default function shopifyGraphQLProxy(proxyOptions?: ProxyOptions) {
       // Setting request header here, not response. That's why we don't use ctx.set()
       // proxy middleware will grab this request header
       headers: {
-        'Content-Type': 'application/json',
+        'Content-Type': 'application/graphql',
         'X-Shopify-Access-Token': accessToken,
       },
       proxyReqPathResolver() {
